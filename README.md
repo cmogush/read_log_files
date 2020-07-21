@@ -8,4 +8,5 @@ Program to read and print web logs
 
 <b>WebLogParser</b> - 
 
-<b>Tester</b>
+<b>Tester</b> - Class to test the program. Contains the following methods:
+* <b>testUniqueIP</b> - creates a LogAnalyzer, read from the file short-test_log, and then tests the method countUniqueIPs.
