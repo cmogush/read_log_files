@@ -12,7 +12,7 @@ Program to read and print web logs
 * <b>countUniqueIPsInRange</b> - has two integer parameters named low and high. This method returns the number of unique IP addresses in records that have a status code in the range from low to high, inclusive.
   * For example, using the file short-test_log, the call countUniqueIPsInRange(200,299) returns 4, as there are four unique IP addresses that have a status code from 200 to 299. The call countUniqueIPsInRange(300,399) returns 2. In this case, note that there are three entries in the file that have a status code in the 300 range, but two of them have the same IP address.
 
-<b>WebLogParser</b> - 
+<b>WebLogParser</b> - class with <b>ParseEntry</b> helper method.
 
 <b>Tester</b> - Class to test the program. Contains the following methods:
 * <b>testUniqueIP</b> - creates a LogAnalyzer, read from the file short-test_log, and then tests the method countUniqueIPs.
