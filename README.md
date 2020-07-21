@@ -25,7 +25,17 @@ Program to read and print web logs
 
 <b>WebLogParser</b> - class with <b>ParseEntry</b> helper method.
 
-<b>Tester</b> - Class to test the program.
+<b>Tester</b> - Class to test the program. Contains the following methods:
+* <b>testLogEntry</b> - creates and prints out 2 log entry objects.
+* <b>testLogAnalyzer</b> - creates a LogAnalyzer object, calls readFile on the data file short-test_log, and then calls printAll to print all the web logs.
+* <b>testUniqueIP</b> - create a LogAnalyzer, read from the file short-test_log, and then tests the method countUniqueIPs.
+* <b>testUniqueIPVisitsOnDay</b> - creates a LogAnalyzer, prints out the unique IPs visiting on the given day.
+* <b>testCountUniqueIPsInRange</b> - creates a LogAnalyzer, prints out the IPs between a low and high range.
+* <b>testPrintHigherThanNum</b> - creates a LogAnalyzer, prints out all IPs higher than the given Int.
+* <b>testCounts</b> - creates a LogAnalyzer, prints out the Highest # of visits for an ip, and the IP with the highest # of visits.
+* <b>testIPForDays</b> - creates a LogAnalyzer, tests the days an IP visted.
+* <b>testDayWithMostIPVisits</b> - creates a LogAnalyzer, prints out the day that that the most IP visits.
+* <b>testDayWithMostIPVisitsOnDay</b> - creates a LogAnalyzer, prints the IPs with the most visits on the given day.
 
 Links to exercises:
 * https://www.coursera.org/learn/java-programming-arrays-lists-data/supplement/cAl9o/programming-exercise-reading-log-files
