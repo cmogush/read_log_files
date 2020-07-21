@@ -8,6 +8,11 @@ Program to read and print web logs
   * *request* - String to contain the request.
   * *statusCode* - Integer to contain the status code.
   * *bytesReturned* - Integer to contain the bytes returned.
+* <b>getIpAddress</b> - returns the *ipAddress* as a String.
+* <b>getAccessTime</b> - returns the *accessTime* as a Date object.
+* <b>getRequest</b> - returns the *request* as a String.
+* <b>getStatusCode</b> - returns the *statusCode* as an Integer.
+* <b>getByesReturned</b> - returns the *bytesReturned* as an Integer.
 
 <b>LogAnalyzer</b> - constructor initializes records to an empty ArrayList. Contains the following methods:
 * <b>readFile</b> - creates a FileResource and to iterate over all the lines in the file. For each line, creates a LogEntry and store it in the records ArrayList. 
@@ -20,5 +25,4 @@ Program to read and print web logs
 
 <b>WebLogParser</b> - class with <b>ParseEntry</b> helper method.
 
-<b>Tester</b> - Class to test the program. Contains the following methods:
-* <b>testUniqueIP</b> - creates a LogAnalyzer, read from the file short-test_log, and then tests the method countUniqueIPs.
+<b>Tester</b> - Class to test the program.
