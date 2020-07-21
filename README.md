@@ -2,6 +2,12 @@
 Program to read and print web logs
 
 <b>LogEntry</b> - Class that has five private variables, a constructor, five get methods to access the private fields, and a toString method for printing out a LogEntry. Contains the following methods:
+* <b>LogEntry</b> - constructor method that initializes the following private variables:
+  * *ipAddress* - String to contain the ip address.
+  * *accessTime* - Date object to contain the time of access.
+  * *request* - String to contain the request.
+  * *statusCode* - Integer to contain the status code.
+  * *bytesReturned* - Integer to contain the bytes returned.
 
 <b>LogAnalyzer</b> - constructor initializes records to an empty ArrayList. Contains the following methods:
 * <b>readFile</b> - creates a FileResource and to iterate over all the lines in the file. For each line, creates a LogEntry and store it in the records ArrayList. 
