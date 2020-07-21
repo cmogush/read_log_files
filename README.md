@@ -26,3 +26,8 @@ Program to read and print web logs
 <b>WebLogParser</b> - class with <b>ParseEntry</b> helper method.
 
 <b>Tester</b> - Class to test the program.
+
+Links to exercises:
+* https://www.coursera.org/learn/java-programming-arrays-lists-data/supplement/cAl9o/programming-exercise-reading-log-files
+* https://www.coursera.org/learn/java-programming-arrays-lists-data/supplement/xGjL5/programming-exercise-finding-unique-ip-addresses
+* https://www.coursera.org/learn/java-programming-arrays-lists-data/supplement/ygOPU/programming-exercise-counting-website-visits
